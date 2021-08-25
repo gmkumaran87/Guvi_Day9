@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    margin: 0 auto;
+}
+
+.container {
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+}

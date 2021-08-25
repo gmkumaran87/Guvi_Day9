@@ -1,0 +1,84 @@
+body {
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+.form-heading {
+    background-color: turquoise;
+    text-align: center;
+}
+
+.subscribe {
+    margin: 10px 5px;
+}
+
+.form-container {
+    background-color: white;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .5);
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.inp-container {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 6px 0;
+}
+
+.control-input {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.inp-container input {
+    width: 180px;
+}
+
+.first-row {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.address-container input {
+    width: 99%;
+}
+
+.third-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.third-row input {
+    width: 70%;
+}
+
+.subscribeYear {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.radio-btns input[type="radio"] {
+    margin: 10px 5px 0 0;
+    padding: 15px;
+    width: auto;
+    display: inline-block;
+}
+
+.radio-btns h4 {
+    margin: 5px 0;
+}
+
+.third-row {
+    margin: 5px 0
+}
